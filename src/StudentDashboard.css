@@ -1,0 +1,29 @@
+/* src/StudentDashboard.css */
+.dashboard {
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.logout-button, .course-item, .student-item {
+    cursor: pointer;
+}
+
+.logout-button {
+    float: right;
+    margin-bottom: 20px;
+}
+
+.course-item, .student-item {
+    margin: 10px 0;
+    padding: 10px;
+    background-color: #f0f0f0;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    list-style-type: none;
+}
+
+.course-item:hover, .student-item:hover {
+    background-color: #e0e0e0;
+}
